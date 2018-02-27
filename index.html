@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" id="pagesheet"/>
+	<link rel='icon' type='image/icon' href='img/favicon.png' />
+	<link rel='shortcut icon' type='image/x-icon' href='img/favicon.png' />
+	<link rel="stylesheet" href="css/bootstrap.css" >
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/media.css"/>
+</head>
+<body>
+
+<script src="js/jquery.2.2.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="js/main.js" type="text/javascript"></script>
+
+
+<div class="general_wrapper">
+
+    <header>
+ 		<div class="header-top">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-6 col-md-3">
+						<ul class="nav">
+							<li class="nav-item"><a href="#" class="nav-link">Delivery</a></li>
+							<li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+							<li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3 d-flex justify-content-end">
+						<div class="dropdown show">
+							<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								dollars
+							</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="#">Pounds</a>
+							</div>
+						</div>
+						<div class="dropdown show">
+							<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								En
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="#">ru</a>
+								<a class="dropdown-item" href="#">ua</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header py-4">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class=" col-12 col-md-3">
+						<a href="/"><img src="img/logo.png" class="img-fluid" alt=""></a>
+					</div>
+					<div class="col-12 col-md-6">
+                        <ul class="nav justify-content-between">
+                            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link active">Catalog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Sale</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        </ul>
+					</div>
+					<div class=" col-12 col-md-3 bag">
+                        <a href="#"><span>your bag</span> <span class="count-item">2</span></a>
+                        <a href="#"><i class="fas fa-search"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+    </header>
+    <section id="catalog" class="pt-5 mt-5">
+            <div class="container">
+                <div class="h1 text-center">Catalog</div>
+                <div class="row ">
+                    <div class="col-12 py-3">
+                        <div class="list-group flex-row justify-content-center align-items-center catalog-nav" id="list-tab" role="tablist">
+                            <a class="list-group-item active" data-toggle="list" href="#All">All</a>
+                            <a class="list-group-item" data-toggle="list" href="#T-shirts">T-shirts</a>
+                            <a class="list-group-item" data-toggle="list" href="#sweaters">sweaters</a>
+                            <a class="list-group-item" data-toggle="list" href="#Shorts">Shorts</a>
+                            <a class="list-group-item" data-toggle="list" href="#jackets">jackets</a>
+                            <a class="list-group-item" data-toggle="list" href="#ACCESSOIRES">ACCESSOIRES</a>
+                        </div>
+                    </div>
+                    <div class="col-12 catalog py-4">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="All" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-1jpg.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Printed swimsuit</a>
+                                            <div class="price"><span class="price-now">$23</span> </div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-2.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Jogging bermuda shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$36</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <span class="new-item">
+                                                new
+                                            </span>
+                                            <img src="img/prod-3.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic beach flip flops</a>
+                                            <div class="price"><span class="price-now">$9</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-4.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Black sunglasses</a>
+                                            <div class="price"><span class="price-now">$29</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-5.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Long sleeved twill shirt</a>
+                                            <div class="price"><span class="price-now">$20</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-6.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic swimsuit</a>
+                                            <div class="price"><span class="price-now">$36</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-7.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price"><span class="price-now">$12</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-8.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$32</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="T-shirts" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-1jpg.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Printed swimsuit</a>
+                                            <div class="price"><span class="price-now">$23</span> </div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-2.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Jogging bermuda shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$36</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <span class="new-item">
+                                                new
+                                            </span>
+                                            <img src="img/prod-3.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic beach flip flops</a>
+                                            <div class="price"><span class="price-now">$9</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-4.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Black sunglasses</a>
+                                            <div class="price"><span class="price-now">$29</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-5.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Long sleeved twill shirt</a>
+                                            <div class="price"><span class="price-now">$20</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-6.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic swimsuit</a>
+                                            <div class="price"><span class="price-now">$36</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-7.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price"><span class="price-now">$12</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-8.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$32</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sweaters" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-1jpg.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Printed swimsuit</a>
+                                            <div class="price"><span class="price-now">$23</span> </div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-2.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Jogging bermuda shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$36</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <span class="new-item">
+                                                new
+                                            </span>
+                                            <img src="img/prod-3.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic beach flip flops</a>
+                                            <div class="price"><span class="price-now">$9</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-4.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Black sunglasses</a>
+                                            <div class="price"><span class="price-now">$29</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-5.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Long sleeved twill shirt</a>
+                                            <div class="price"><span class="price-now">$20</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-6.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic swimsuit</a>
+                                            <div class="price"><span class="price-now">$36</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-7.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price"><span class="price-now">$12</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-8.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$32</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="Shorts" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-1jpg.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Printed swimsuit</a>
+                                            <div class="price"><span class="price-now">$23</span> </div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-2.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Jogging bermuda shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$36</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <span class="new-item">
+                                                new
+                                            </span>
+                                            <img src="img/prod-3.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic beach flip flops</a>
+                                            <div class="price"><span class="price-now">$9</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-4.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Black sunglasses</a>
+                                            <div class="price"><span class="price-now">$29</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-5.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Long sleeved twill shirt</a>
+                                            <div class="price"><span class="price-now">$20</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-6.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic swimsuit</a>
+                                            <div class="price"><span class="price-now">$36</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-7.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price"><span class="price-now">$12</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-8.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$32</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="jackets" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-1jpg.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Printed swimsuit</a>
+                                            <div class="price"><span class="price-now">$23</span> </div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-2.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Jogging bermuda shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$36</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <span class="new-item">
+                                                new
+                                            </span>
+                                            <img src="img/prod-3.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic beach flip flops</a>
+                                            <div class="price"><span class="price-now">$9</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-4.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Black sunglasses</a>
+                                            <div class="price"><span class="price-now">$29</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-5.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Long sleeved twill shirt</a>
+                                            <div class="price"><span class="price-now">$20</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-6.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic swimsuit</a>
+                                            <div class="price"><span class="price-now">$36</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-7.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price"><span class="price-now">$12</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-8.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$32</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="ACCESSOIRES" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-1jpg.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Printed swimsuit</a>
+                                            <div class="price"><span class="price-now">$23</span> </div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-2.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Jogging bermuda shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$36</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <span class="new-item">
+                                                new
+                                            </span>
+                                            <img src="img/prod-3.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic beach flip flops</a>
+                                            <div class="price"><span class="price-now">$9</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-4.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Black sunglasses</a>
+                                            <div class="price"><span class="price-now">$29</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-5.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Long sleeved twill shirt</a>
+                                            <div class="price"><span class="price-now">$20</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-6.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Basic swimsuit</a>
+                                            <div class="price"><span class="price-now">$36</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-7.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price"><span class="price-now">$12</span></div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                    <div class="col-12 col-md-3 card">
+                                        <a href="#" class="img">
+                                            <img src="img/prod-8.jpg" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="" class="prod-name">Bleached shorts</a>
+                                            <div class="price has-new-price"><span class="price-now">$32</span>$12</div>
+                                        </div>
+                                    </div><!--//.card-->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 pt-2 pb-4 text-center">
+                        <a href="#" class="load-more">
+                            Load More...
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section><!--#catalog-->
+    <section id="subscribe">
+        <div class="container">
+            <div class="row py-5 my-4">
+                <div class="col-12 col-md-6 ml-auto mr-auto text-center">
+                    <div class="text">
+                        Subscribe
+                    </div>
+                    <div class="h3 py-3">Stay updated on news</div>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-12 col-md-7 ml-auto mr-auto">
+                                <input type="text" name="" class="form-control" placeholder="Your Email Address"><i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<footer>
+        <div class="container">
+            <div class="row py-4 align-items-center">
+                <div class=" col-12 col-md-3">
+                    <a href="/"><img src="img/logo.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <ul class="nav justify-content-between">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link active">Catalog</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sale</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class=" col-12 col-md-3 text-right">
+                    ©2010 - 2016 All rights reserved
+                </div>
+            </div>
+        </div>
+	</footer>
+
+</div>
+
+</body>
+</html>
